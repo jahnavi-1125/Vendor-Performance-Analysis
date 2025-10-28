@@ -19,7 +19,8 @@ It combines **SQL**, **Python**, and **Power BI** to build a complete analytical
 
 ---
 
-## 📊 Project Overview
+<h2><a class="anchor" id="Project Overview"></a>📊 Project Overview</h2>
+
 Retail businesses often rely on multiple vendors for their products. Inefficient vendors, inaccurate pricing, and slow inventory turnover can directly affect profitability.  
 This project aims to:
 - Measure vendor performance using data-driven metrics  
@@ -29,7 +30,8 @@ This project aims to:
 
 ---
 
-## 🧠 Business Objectives
+<h2><a class="anchor" id="Business Objectives"></a>🧠 Business Objectives</h2>
+
 - Identify vendors contributing the most (and least) to sales and profit  
 - Detect loss-making or low-margin transactions  
 - Quantify savings from bulk purchasing  
@@ -38,7 +40,8 @@ This project aims to:
 
 ---
 
-## 🗂️ Dataset
+<h2><a class="anchor" id="Dataset"></a> 🗂️ Dataset</h2>
+
 Multiple CSV/Excel files located in the **`data/`** folder:  
 - `sales.csv`  
 - `purchases.csv`  
@@ -49,7 +52,8 @@ After ingestion, the data is stored in a **SQLite database (`inventory.db`)** fo
 
 ---
 
-## 🛠️ Tools & Technologies
+<h2><a class="anchor" id="Tools & Technologies"></a> 🛠️ Tools & Technologies</h2>
+
 | Category | Tools / Libraries |
 |-----------|-------------------|
 | Data Cleaning & Analysis | **Python**, Pandas, NumPy |
@@ -59,7 +63,8 @@ After ingestion, the data is stored in a **SQLite database (`inventory.db`)** fo
 
 ---
 
-## 🧩 Project Structure
+<h2><a class="anchor" id="Project Structure"></a> 🧩 Project Structure</h2>
+
 ```
 vendor-performance-analysis/
 │
@@ -82,6 +87,8 @@ vendor-performance-analysis/
 
 ```
 
+<h2><a class="anchor" id=" Data Preparation & Cleaning"></a>🧹 Data Preparation & Cleaning</h2>
+
 ## 🧹 Data Preparation & Cleaning
 1. Removed transactions with:
    - `Gross Profit ≤ 0`
@@ -97,7 +104,8 @@ vendor-performance-analysis/
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
+<h2><a class="anchor" id="Exploratory Data Analysis (EDA)"></a> 🔍 Exploratory Data Analysis (EDA)</h2>
+
 Key findings from exploratory analysis:
 - **Negative Values:** Detected loss-making and zero-margin transactions  
 - **Outliers:** Found unusually high freight and purchase prices  
@@ -108,7 +116,8 @@ Key findings from exploratory analysis:
 
 ---
 
-## 📈 Statistical Insights
+<h2><a class="anchor" id="Statistical Insights"></a> 📈 Statistical Insights</h2>
+
 - **Top Vendors:** 10 vendors contribute to ~66% of total purchases  
 - **Bulk Orders:** Up to 72% cost savings per unit in bulk purchases  
 - **Inventory Turnover:** \$2.7M worth of slow-moving stock detected  
@@ -119,7 +128,8 @@ Key findings from exploratory analysis:
 
 ---
 
-## 📊 Dashboard Highlights (Power BI)
+<h2><a class="anchor" id="Dashboard Highlights (Power BI)"></a>  📊 Dashboard Highlights (Power BI)</h2>
+
 The **Power BI Dashboard** (`vendor_performance_dashboard.pbix`) includes:
 - Vendor-wise Sales, Profit, and Margin trends  
 - Inventory Turnover and Unsold Stock analysis  
@@ -130,8 +140,8 @@ The **Power BI Dashboard** (`vendor_performance_dashboard.pbix`) includes:
 
 ---
 
+<h2><a class="anchor" id="Outcome"></a>✅ Outcome </h2>
 
-## ✅ Outcome
 - Automated ETL pipeline from CSV → Database → Insights  
 - Data-driven vendor performance benchmarking  
 - Clear visualization of profit, cost, and turnover metrics  

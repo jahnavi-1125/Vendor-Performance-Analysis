@@ -6,21 +6,22 @@ It combines **SQL**, **Python**, and **Power BI** to build a complete analytical
 ---
 
 ## 📌Table of Contents
-- <a href="#project-overview">Project Overview</a>
-- <a href="#business-objectives">Business Objectives</a>
-- <a href="#dataset">Dataset</a>
-- <a href="#tools--technologies">Tools & Technologies</a>
-- <a href="#project-structure">Project Structure</a>
-- <a href="#data-preparation--cleaning">Data Preparation & Cleaning</a>
-- <a href="#exploratory-data-analysis-eda">Exploratory Data Analysis (EDA)</a>
-- <a href="#statistical-insights">Statistical Insights</a>
-- <a href="#dashboard-highlights-power-bi">Dashboard</a>
-- <a href="#project-outcome">Project Outcome</a>
+- <a href="#-project-overview">📊 Project Overview</a>
+- <a href="#-business-objectives">🎯 Business Objectives</a>
+- <a href="#-dataset">📁 Dataset</a>
+- <a href="#-tools--technologies">🧰 Tools & Technologies</a>
+- <a href="#-project-structure">📂 Project Structure</a>
+- <a href="#-data-preparation--cleaning">🧹 Data Preparation & Cleaning</a>
+- <a href="#-exploratory-data-analysis-eda">📈 Exploratory Data Analysis (EDA)</a>
+- <a href="#-statistical-insights">📊 Statistical Insights</a>
+- <a href="#-dashboard-highlights-power-bi">📉 Dashboard</a>
+- <a href="#-project-outcome">🏁 Project Outcome</a>
+
 
 
 ---
 
-<h2><a class="anchor" id="Project Overview"></a>📊 Project Overview</h2>
+## 📊 Project Overview
 
 Retail businesses often rely on multiple vendors for their products. Inefficient vendors, inaccurate pricing, and slow inventory turnover can directly affect profitability.  
 This project aims to:
@@ -31,7 +32,7 @@ This project aims to:
 
 ---
 
-<h2><a class="anchor" id="Business Objectives"></a>🧠 Business Objectives</h2>
+## 🎯 Business Objectives
 
 - Identify vendors contributing the most (and least) to sales and profit  
 - Detect loss-making or low-margin transactions  
@@ -41,7 +42,7 @@ This project aims to:
 
 ---
 
-<h2><a class="anchor" id="Dataset"></a> 🗂️ Dataset</h2>
+## 📁 Dataset
 
 Multiple CSV/Excel files located in the **`data/`** folder:  
 - `sales.csv`  
@@ -53,7 +54,8 @@ After ingestion, the data is stored in a **SQLite database (`inventory.db`)** fo
 
 ---
 
-<h2><a class="anchor" id="Tools & Technologies"></a> 🛠️ Tools & Technologies</h2>
+
+## 🧰 Tools & Technologies
 
 | Category | Tools / Libraries |
 |-----------|-------------------|
@@ -64,7 +66,7 @@ After ingestion, the data is stored in a **SQLite database (`inventory.db`)** fo
 
 ---
 
-<h2><a class="anchor" id="Project Structure"></a> 🧩 Project Structure</h2>
+## 📂 Project Structure
 
 ```
 vendor-performance-analysis/
@@ -88,9 +90,8 @@ vendor-performance-analysis/
 
 ```
 
-<h2><a class="anchor" id="Data Preparation & Cleaning"></a>🧹 Data Preparation & Cleaning</h2>
-
 ## 🧹 Data Preparation & Cleaning
+
 1. Removed transactions with:
    - `Gross Profit ≤ 0`
    - `Profit Margin ≤ 0`
@@ -105,7 +106,7 @@ vendor-performance-analysis/
 
 ---
 
-<h2><a class="anchor" id="Exploratory Data Analysis (EDA)"></a> 🔍 Exploratory Data Analysis (EDA)</h2>
+## 🔍 Exploratory Data Analysis (EDA)
 
 Key findings from exploratory analysis:
 - **Negative Values:** Detected loss-making and zero-margin transactions  
@@ -117,7 +118,7 @@ Key findings from exploratory analysis:
 
 ---
 
-<h2><a class="anchor" id="Statistical Insights"></a> 📈 Statistical Insights</h2>
+## 📈 Statistical Insights
 
 - **Top Vendors:** 10 vendors contribute to ~66% of total purchases  
 - **Bulk Orders:** Up to 72% cost savings per unit in bulk purchases  
@@ -129,7 +130,7 @@ Key findings from exploratory analysis:
 
 ---
 
-<h2><a class="anchor" id="Dashboard Highlights (Power BI)"></a>  📊 Dashboard Highlights (Power BI)</h2>
+## 📊 Dashboard Highlights (Power BI)
 
 The **Power BI Dashboard** (`vendor_performance_dashboard.pbix`) includes:
 - Vendor-wise Sales, Profit, and Margin trends  
@@ -141,7 +142,7 @@ The **Power BI Dashboard** (`vendor_performance_dashboard.pbix`) includes:
 
 ---
 
-<h2><a class="anchor" id="Outcome"></a>✅ Outcome </h2>
+## ✅ Outcome
 
 - Automated ETL pipeline from CSV → Database → Insights  
 - Data-driven vendor performance benchmarking  

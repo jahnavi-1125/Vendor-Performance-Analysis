@@ -5,17 +5,18 @@ It combines **SQL**, **Python**, and **Power BI** to build a complete analytical
 
 ---
 
-##📌Table of Contents
-- <a href="#Project Overview">Project Overview</a>
-- <a href="#Business Objectives">Business Objectives</a>
-- <a href="#Dataset">Dataset</a>
-- <a href="# Tools & Technologies"> Tools & Technologies</a>
-- <a href="# Project Structure"> Project Structure</a>
-- <a href="# Data Preparation & Cleaning"> Data Preparation & Cleaning</a>
-- <a href="# Exploratory Data Analysis (EDA)"> Exploratory Data Analysis (EDA)</a>
-- <a href="# Statistical Insights"> Statistical Insights</a>
-- <a href="# Dashboard Highlights (Power BI)">Dashboard</a>
-- <a href="# Outcome">Project Outcome</a>
+## 📌Table of Contents
+- <a href="#project-overview">Project Overview</a>
+- <a href="#business-objectives">Business Objectives</a>
+- <a href="#dataset">Dataset</a>
+- <a href="#tools--technologies">Tools & Technologies</a>
+- <a href="#project-structure">Project Structure</a>
+- <a href="#data-preparation--cleaning">Data Preparation & Cleaning</a>
+- <a href="#exploratory-data-analysis-eda">Exploratory Data Analysis (EDA)</a>
+- <a href="#statistical-insights">Statistical Insights</a>
+- <a href="#dashboard-highlights-power-bi">Dashboard</a>
+- <a href="#project-outcome">Project Outcome</a>
+
 
 ---
 
@@ -87,7 +88,7 @@ vendor-performance-analysis/
 
 ```
 
-<h2><a class="anchor" id=" Data Preparation & Cleaning"></a>🧹 Data Preparation & Cleaning</h2>
+<h2><a class="anchor" id="Data Preparation & Cleaning"></a>🧹 Data Preparation & Cleaning</h2>
 
 ## 🧹 Data Preparation & Cleaning
 1. Removed transactions with:

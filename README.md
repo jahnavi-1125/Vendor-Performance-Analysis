@@ -142,7 +142,7 @@ The **Power BI Dashboard** (`vendor_performance_dashboard.pbix`) includes:
 
 ---
 
-## ✅ Outcome
+## ✅ Project Outcome
 
 - Automated ETL pipeline from CSV → Database → Insights  
 - Data-driven vendor performance benchmarking  

@@ -1,0 +1,20 @@
+# Core libraries
+pandas
+numpy
+matplotlib
+seaborn
+
+# Statistical analysis
+scipy
+
+# Database connectivity
+sqlalchemy
+mysql-connector-python
+
+# Data handling / cleaning
+openpyxl
+
+# For exporting and automation
+xlrd
+jupyter
+notebook
